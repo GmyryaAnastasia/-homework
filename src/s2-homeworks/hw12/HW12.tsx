@@ -37,7 +37,6 @@ const HW12 = () => {
             <div id={'hw12-text'} className={s2.hwTitle}>
                 Homework #12
             </div>
-
             <div className={s2.hw}>
                 <SuperSelect
                     id={'hw12-select-theme'}
