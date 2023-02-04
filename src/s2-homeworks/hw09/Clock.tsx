@@ -42,7 +42,6 @@ function Clock() {
     const stringMonth = new Intl.DateTimeFormat("en-US", {
         month: "long",
     }).format(date) || <br/> // пишут студенты
-
     return (
         <div className={s.clock}>
             <div
