@@ -60,7 +60,6 @@ const SuperSort: React.FC<SuperSortPropsType> = (
             {/*{icon} /!*а это убрать*!/*/}
         </span>
     )
-
 }
 
 export default SuperSort

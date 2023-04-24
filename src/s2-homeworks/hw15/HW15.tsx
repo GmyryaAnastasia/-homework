@@ -38,7 +38,6 @@ const getTechs = (params: ParamsType) => {
         })
 }
 
-
 const HW15 = () => {
     const [sort, setSort] = useState('')
     const [page, setPage] = useState(1)

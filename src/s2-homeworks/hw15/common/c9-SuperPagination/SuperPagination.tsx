@@ -31,7 +31,6 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
 
     }
 
-
     return (
         <div className={s.pagination}>
             <Pagination
