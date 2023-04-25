@@ -71,12 +71,12 @@ const HW15 = () => {
     }
 
     const onChangeSort = (newSort: string) => {
-        // делает студент
-        setSort(newSort)
+         setSort(newSort)
         // при сортировке сбрасывать на 1 страницу
         const params = Object.fromEntries(searchParams)
         setPage(1)
         setSearchParams({...params, page: '1', sort: newSort})
+      ;
     }
 
 
